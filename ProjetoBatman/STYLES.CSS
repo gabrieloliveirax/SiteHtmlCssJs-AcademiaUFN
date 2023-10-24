@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro' , sans-serif;
+}
+
+li:hover {
+    color: #D21617
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#banner {
+    background-image: url('https://pbs.twimg.com/media/FBwJWeQXIAItfyH.jpg:large');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+#trailer-container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer {
+    width: 50%;
+}
+
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+.description {
+    color: #fff;
+    font-size: 19px;
+    font-family:  'Kdam Thmor Pro' , sans-serif;
+    width: 70%;
+}
+
+.button {
+    width: 260px;
+    height: 60px;
+    background-color: #D21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0  20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family:  'Kdam Thmor Pro' , sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://noticiasdatv.uol.com.br/media/uploads/artigos_2021/batman-robert-pattinson-foto-divulgacao-warner-bros.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://ellebrasil-wp-images.s3.amazonaws.com/2022/08/origin-118.jpg');
+}
+
+.banner-3 {
+    background-image: url('https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/02/The-Batman-Jeffrey-Wright-Commissioner-Gordon-Challenge.jpg');
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family:  'Kdam Thmor Pro' , sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#par-1 {
+    margin-top: 30px;
+    color: #fff;
+    font-family:  'Kdam Thmor Pro' , sans-serif;
+    font-size: 40px;
+    margin-left: 70px;
+}
+
+#par-2 {
+    color: #F20519;
+    font-family:  'Kdam Thmor Pro' , sans-serif;
+    font-size: 15px;
+    margin-left: 70px;
+}
+
+.fotos-pagina {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fotos {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.foto {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0  20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family:  'Kdam Thmor Pro' , sans-serif;
+}
+
+.foto:hover {
+    transform: scale(1.02);
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+}
+
+.styled-form {
+    max-width: 355px;
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    color: red;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 80%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+input[type="submit"] {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    background-color: darkred;
+}
+
+.banner-01 {
+    background-image: url('https://images7.alphacoders.com/120/thumbbig-1200683.webp');
+}
+
+.banner-02 {
+    background-image: url('https://images2.alphacoders.com/122/thumbbig-1227970.webp');
+}
+
+.banner-03 {
+    background-image: url('https://images4.alphacoders.com/122/thumbbig-1225687.webp');
+}
+
+.banner-04 {
+    background-image: url('https://images.alphacoders.com/123/thumbbig-1236715.webp');
+}
+
+.banner-05 {
+    background-image: url('https://images5.alphacoders.com/593/thumbbig-593549.webp');
+}
+
+.banner-06 {
+    background-image: url('https://images2.alphacoders.com/126/thumbbig-1266468.webp');
+}
+
+.banner-07 {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/510/332/833/the-batman-2021-batman-caped-crusader-robert-pattinson-detectives-hd-wallpaper-preview.jpg');
+}
+
+.banner-08 {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/378/651/635/the-dark-knight-rises-batman-dark-christian-bale-wallpaper-preview.jpg');
+}
+
+.banner-09 {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/900/633/167/batman-batman-arkham-origins-video-games-night-wallpaper-preview.jpg');
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: red;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(255, 0, 0, 0.2);
+}
